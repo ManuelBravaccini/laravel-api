@@ -14,7 +14,7 @@
             <div class="tags mb-5">
                 @foreach ($project->technologies as $technology)
                    <span class="p-2 badge rounded-pill"
-                   style="background-color: {{ $technology->color }}; color: {{ $technology->color }}"> #{{ $technology->name }}</span>
+                   style="background-color: {{ $technology->color }}"> #{{ $technology->name }}</span>
                 @endforeach
             </div>
 
